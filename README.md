@@ -10,6 +10,13 @@ Move `src/mako` folder to your `.config` folder
 
 You can find waybar module from `src/waybar/config`
 
+Add those lines to your `hyprland.conf` file
+```
+exec-once = mako
+exec-once = bash ~/.config/mako/logger.sh
+```
+
+
 ## 💫 Features
 * Do not disturb mode
 * Notification history
