@@ -1,0 +1,14 @@
+"custom/mako": {
+    "format": "{icon}",
+    "format-icons": {
+        "notification": "󱅫",
+        "none": "󰂚",
+        "dnd-notification": "<span foreground='gray'><sup></sup></span>",
+        "dnd-none": "<span foreground='red'><sup> </sup></span>"
+    },
+    "return-type": "json",
+    "exec": "bash ~/.config/mako/waybar.sh ",
+    "interval": 1,
+    "on-click": "bash ~/.config/mako/rofi.sh",
+    "on-click-right": "bash ~/.config/mako/waybar.sh -d",
+},
